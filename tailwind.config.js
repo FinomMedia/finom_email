@@ -4,6 +4,30 @@ module.exports = {
     screens: {
       sm: {max: '600px'},
     },
+    colors: {
+      transparent: 'transparent',
+      inherit: 'inherit',
+
+      black: '#262626',
+      white: '#ffffff',
+      gradient: 'linear-gradient(54.11deg,#4f8aff,#4f8aff)',
+      gradient_green: 'linear-gradient(90deg,#2D864D,#18552D)',
+      primary: '#B29F80',
+      secondary: '#00294D',
+
+      gray: {
+        '50': '#f9fafb',
+        '100': '#f4f5f7',
+        '200': '#e5e7eb',
+        '300': '#d2d6dc',
+        '400': '#9fa6b2',
+        '500': '#6b7280',
+        '600': '#CECECE',
+        '700': '#656565',
+        '800': '#252525',
+        '900': '#161e2e',
+      },
+    },
     extend: {
       spacing: {
         screen: '100vw',
@@ -78,15 +102,15 @@ module.exports = {
         full: '9999px',
       },
       fontFamily: {
-        sans: ['ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
+        sans: ['ui-sans-serif', 'system-ui', '-apple-system', '"Inter"', 'sans-serif'],
         serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
         mono: ['ui-monospace', 'Menlo', 'Consolas', 'monospace'],
       },
       fontSize: {
         0: '0',
-        xs: '12px',
-        sm: '14px',
-        base: '16px',
+        xs: '9px',
+        sm: '11px',
+        base: '12px',
         lg: '18px',
         xl: '20px',
         '2xl': '24px',

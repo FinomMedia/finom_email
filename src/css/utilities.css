@@ -8,6 +8,18 @@
  * https://tailwindcss.com/docs/functions-and-directives#layer
 */
 
+.borderContact {
+  margin-right: 4px;
+  padding-right: 2px;
+  border-right: 1px solid #b29f80;
+}
+
+@media only screen and (max-width: 600px) {
+  .borderContact:nth-child(3) {
+    border-right: none !important;
+  }
+}
+
 @layer utilities {
   .mso-leading-exactly {
     mso-line-height-rule: exactly;
