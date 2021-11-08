@@ -1,4 +1,4 @@
-## Finom Group - email
+# Finom Group - email
 
 ## Production
 
