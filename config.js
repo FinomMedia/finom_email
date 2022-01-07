@@ -20,6 +20,9 @@ module.exports = {
         source: 'src/images',
         destination: 'images',
       },
+      components: {
+        root: 'src/components',
+      },
     },
   },
 }
