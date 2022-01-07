@@ -15,8 +15,7 @@ module.exports = {
       finom_group: '#B29F80',
       finom_finance: '#D09124',
       finom_reality: '#B29F80',
-      finom_media: '#CE0F9F',
-      finom_digital: '#6C359E',
+      finom_media: '#6C359E',
 
       gray: {
         '50': '#f9fafb',
