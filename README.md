@@ -3,7 +3,10 @@
 ## Production
 
 ### Základní emailový podpis
-[Emailový podpis - noformated](https://github.com/FinomMedia/finom_email/blob/master/build_production/signature_noformated.html)<br>
+[Emailový podpis - Finom Group](https://finommedia.github.io/finom_email/build_production/signature_finom-group.html)<br>
+[Emailový podpis - Finom Finance](https://finommedia.github.io/finom_email/build_production/signature_finom-finance.html)<br>
+[Emailový podpis - Finom Reality](https://finommedia.github.io/finom_email/build_production/signature_finom-reality.html)<br>
+[Emailový podpis - Finom Media](https://finommedia.github.io/finom_email/build_production/signature_finom-media.html)<br>
 
 ### Newsletter - informační
 Není k dispozici

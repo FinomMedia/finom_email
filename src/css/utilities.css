@@ -22,6 +22,15 @@
   line-height: inherit !important;
 }
 
+.financeLinks {
+  color: #D09124 !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: 'Lato', Helvetica, Arial, sans-serif; mso-line-height-rule: exactly !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
 .grayLinks {
   color: #A2A0A0 !important;
   text-decoration: none !important;
