@@ -12,9 +12,11 @@
 const fs = require('fs');
 
 let newsletter = JSON.parse(fs.readFileSync('src/templates/newsletter/data/newsletter.json'));
+let signatures = JSON.parse(fs.readFileSync('src/templates/newsletter/data/signatures.json'));
 
 module.exports = {
   newsletter: newsletter,
+  signatures: signatures,
 
   build: {
     templates: {

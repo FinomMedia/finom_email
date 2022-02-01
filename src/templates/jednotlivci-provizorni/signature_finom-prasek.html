@@ -6,113 +6,121 @@ bodyClass: bg-white
 
 <extends src="src/layouts/main.html">
   <block name="template">
-    <table class="w-600 font-sans p-16 sm:w-full">
-      <tr>
-        <td align="center">
-          <table class="w-600 sm:w-full mb-24">
-            <tr>
-              <td class="text-black contentLink font-light pb-24 px-0 sm:px-0" style="border-bottom: 1px solid #E8E7E4!important;">
-                <p class="m-0 mb-16 font-bold">
-                  Dobrý den,
-                </p>
+    <each loop="item in {{ page.signatures.media }}">
+      <table class="w-600 font-sans p-16 sm:w-full">
+        <tr>
+          <td align="center">
+            <table class="w-600 sm:w-full mb-24">
+              <tr>
+                <td class="text-black contentLink font-light px-0 sm:px-0">
+                  <div class="m-0 mb-16 font-bold">
+                    {{ page.signatures.global.hello }}
+                  </div>
+                </td>
+              </tr>
 
-                <p class="m-0 text-base contentLink">
-                  zde obsah vaší zprávy.
-                </p>
-              </td>
-            </tr>
-          </table>
+              <tr>
+                <td class="text-black contentLink font-light pb-24 px-0 sm:px-0" style="border-bottom: 1px solid #E8E7E4!important;">
+                  <div class="m-0 text-base contentLink">
+                    {{ page.signatures.global.description }}
+                  </div>
+                </td>
+              </tr>
+            </table>
 
-          <table class="w-full" role="separator">
-            <tr>
-              <td class="leading-16">&zwnj;</td>
-            </tr>
-          </table>
+            <table class="w-full" role="separator">
+              <tr>
+                <td class="leading-16">&zwnj;</td>
+              </tr>
+            </table>
 
-          <table class="w-600 sm:w-full">
-            <tr>
-              <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
-                <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1641551789/finom_email-signature/logo/logo_finom-media_yvl4wl.png" width="80" style="width: 80px!important;">
-              </td>
-            </tr>
-          </table>
+            <table class="w-600 sm:w-full">
+              <tr>
+                <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
+                  <img src="{{ item.logo }}" width="80" style="width: 80px!important;">
+                </td>
+              </tr>
+            </table>
 
-          <table class="w-600 sm:w-full" role="separator">
-            <tr>
-              <td class="leading-8">&zwnj;</td>
-            </tr>
-          </table>
+            <table class="w-600 sm:w-full" role="separator">
+              <tr>
+                <td class="leading-8">&zwnj;</td>
+              </tr>
+            </table>
 
+            <each loop="item in {{ page.signatures.prasek }}">
+              <table class="w-600 sm:w-full">
+                <tr>
+                  <td class="text-black font-light px-0 sm:px-0">
+                    <p class="m-0 mb-4 font-bold uppercase" style="line-height: 2.5rem!important;">
+                      {{ item.name }}
+                    </p>
 
-          <table class="w-600 sm:w-full">
-            <tr>
-              <td class="text-black font-light px-0 sm:px-0">
-                <p class="m-0 mb-4 font-bold uppercase" style="line-height: 2.5rem!important;">
-                  Jiří Prášek
-                </p>
+                    <p class="m-0 font-light text-xs uppercase" style="letter-spacing: 1px!important;">
+                      {{ item.position }}
+                    </p>
 
-                <p class="m-0 font-light text-xs uppercase" style="letter-spacing: 1px!important;">
-                  Marketing | Sociální sítě
-                </p>
+                    <p class="text-sm font-bold finom_group">
+                      <a href="tel:{{ item.phone }};" class="text-finom_media mediaLinks" style="color: #6C359E!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                        {{ item.phone }} |
+                      </a>
 
-                <p class="text-sm font-bold finom_group">
-                  <a href="tel:+420 736 233 129;" class="text-finom_media mediaLinks" style="color: #6C359E!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
-                    +420 736 233 129 |
-                  </a>
+                      <a href="mailto:{{ item.email }};" class="text-finom_media mediaLinks" style="color: #6C359E!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                        {{ item.email }} |
+                      </a>
 
-                  <a href="mailto:prasek@finommedia.cz;" class="text-finom_media mediaLinks" style="color: #6C359E!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
-                    prasek@finommedia.cz |
-                  </a>
+                      <a href="https://{{ item.website }}" class="text-finom_media mediaLinks" style="color: #6C359E!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                        {{ item.website }} |
+                      </a>
 
-                  <a href="https://www.finommedia.cz" class="text-finom_media mediaLinks" style="color: #6C359E!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
-                    finommedia.cz |
-                  </a>
+                      <span class="ml-2 sm:block sm:mt-8">
+                        <img src="{{ page.signatures.global.icons.facebook }}" width="14" style="width: 14px!important;">
+                        <img src="{{ page.signatures.global.icons.linkedin }}" width="14" style="width: 14px!important;">
+                        <img src="{{ page.signatures.global.icons.instagram }}" width="14" style="width: 14px!important;">
+                        <img src="{{ page.signatures.global.icons.twitter }}" width="14" style="width: 14px!important;">
+                      </span>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </each>
 
-                  <span class="ml-2 sm:block sm:mt-8">
-                    <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1636237019/finom_email-signature/icons/icon_fb_gmpsgi.png" width="14" style="width: 14px!important;">
-                    <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1636237019/finom_email-signature/icons/icon_li_youztx.png" width="14" style="width: 14px!important;">
-                    <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1636237019/finom_email-signature/icons/icon_ig_udvsgw.png" width="14" style="width: 14px!important;">
-                    <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1636237020/finom_email-signature/icons/icon_tw_ro7ora.png" width="14" style="width: 14px!important;">
-                  </span>
+            <table class="w-600 sm:w-full" role="separator">
+              <tr>
+                <td class="leading-8">&zwnj;</td>
+              </tr>
+            </table>
 
-                </p>
-              </td>
-            </tr>
-          </table>
+            <table class="w-600 sm:w-full">
+              <tr>
+                <each loop="item in {{ page.signatures.prasek }}">
+                  <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
+                    <img src="{{ item.photo }}" width="70" style="width: 70px!important;">
+                  </td>
+                </each>
 
-          <table class="w-600 sm:w-full" role="separator">
-            <tr>
-              <td class="leading-8">&zwnj;</td>
-            </tr>
-          </table>
+                <td class="w-5/6 pl-0 text-gray-300 text-xs sm:w-3/4">
+                  <p class="mb-4 font-bold uppercase">
+                    {{ item.title }}
+                  </p>
 
-          <table class="w-600 sm:w-full">
-            <tr>
-              <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
-                <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1642060343/finom_email-signature/profile-prasek_l5rrxs.png" width="70" style="width: 70px!important;">
-              </td>
+                  <p class="m-0">
+                    {{ item.address1 }}  |  {{ item.address2 }} | <a href="mailto:{{ item.email }};" class="grayLinks" style="color: #A2A0A0!important; text-decoration: none!important;">{{ item.email }}</a>
+                  </p>
 
-              <td class="w-5/6 pl-0 text-gray-300 text-xs sm:w-3/4">
-                <p class="mb-4 font-bold uppercase">
-                  Finom Media & Digital s.r.o.
-                </p>
-
-                <p class="m-0">
-                  Stojanova 1334  |  686 01 Uherské Hradiště | <a href="mailto:info@finommedia.cz;" class="grayLinks" style="color: #A2A0A0!important; text-decoration: none!important;">info@finommedia.cz</a>
-                </p>
-
-                <p class="font-medium text-sm uppercase">
-                  <a href="https://finommedia.cz"
-                     class="grayLinks"
-                     style="color: #A2A0A0!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
-                    WWW.FINOMMEDIA.CZ
-                  </a>
-                </p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
+                  <p class="font-medium text-sm uppercase">
+                    <a href="https://{{ item.website }}"
+                       class="grayLinks"
+                       style="color: #A2A0A0!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                      {{ item.website }}
+                    </a>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </each>
   </block>
 </extends>

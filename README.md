@@ -12,7 +12,9 @@
 [Emailový podpis - Píková](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-pikova.html) <br>
 [Emailový podpis - Prášek](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-prasek.html) <br>
 [Emailový podpis - Vaďura](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-vadura.html) <br>
-
+[Emailový podpis - Mařák](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-marak.html) <br>
+[Emailový podpis - Antonovič](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-antonovic.html) <br>
+[Emailový podpis - Takáč](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-takac.html) <br>
 
 ### Newsletter - informační
 [Newsletter - Finom Group (informacni)](https://finommedia.github.io/finom_email/build_production/newsletter/newsletter_finom-group_informacni.html)

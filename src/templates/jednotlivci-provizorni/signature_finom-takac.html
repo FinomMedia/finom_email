@@ -6,15 +6,23 @@ bodyClass: bg-white
 
 <extends src="src/layouts/main.html">
   <block name="template">
-    <each loop="item in {{ page.signatures.finom }}">
+    <each loop="item in {{ page.signatures.reality }}">
       <table class="w-600 font-sans p-16 sm:w-full">
         <tr>
           <td align="center">
             <table class="w-600 sm:w-full mb-24">
               <tr>
+                <td class="text-black contentLink font-light px-0 sm:px-0">
+                  <div class="m-0 mb-16 font-bold">
+                    {{ page.signatures.global.hello }}
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
                 <td class="text-black contentLink font-light pb-24 px-0 sm:px-0" style="border-bottom: 1px solid #E8E7E4!important;">
                   <div class="m-0 text-base contentLink">
-                    {{ page.signatures.global.descriptionAlt }}
+                    {{ page.signatures.global.description }}
                   </div>
                 </td>
               </tr>
@@ -40,7 +48,7 @@ bodyClass: bg-white
               </tr>
             </table>
 
-            <each loop="item in {{ page.signatures.pikova }}">
+            <each loop="item in {{ page.signatures.takac }}">
               <table class="w-600 sm:w-full">
                 <tr>
                   <td class="text-black font-light px-0 sm:px-0">
@@ -85,7 +93,7 @@ bodyClass: bg-white
 
             <table class="w-600 sm:w-full">
               <tr>
-                <each loop="item in {{ page.signatures.pikova }}">
+                <each loop="item in {{ page.signatures.takac }}">
                   <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
                     <img src="{{ item.photo }}" width="70" style="width: 70px!important;">
                   </td>
