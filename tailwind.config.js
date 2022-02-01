@@ -124,6 +124,17 @@ module.exports = {
         '8xl': '96px',
         '9xl': '128px',
       },
+      fontWeight: {
+        hairline: 100,
+        thin: 200,
+        light: 300,
+        normal: 400,
+        medium: 500,
+        semibold: 600,
+        bold: 700,
+        extrabold: 800,
+        black: 800,
+      },
       inset: theme => ({
         ...theme('spacing'),
       }),

@@ -9,7 +9,13 @@
 |
 */
 
+const fs = require('fs');
+
+let newsletter = JSON.parse(fs.readFileSync('src/templates/newsletter/data/newsletter.json'));
+
 module.exports = {
+  newsletter: newsletter,
+
   build: {
     templates: {
       source: 'src/templates',

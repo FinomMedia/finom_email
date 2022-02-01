@@ -40,6 +40,14 @@
   line-height: inherit !important;
 }
 
+.articles:nth-child(even) {
+  direction: rtl !important;
+}
+
+.articles:nth-child(even) .noafect {
+  direction: ltr !important;
+}
+
 @media only screen and (max-width: 600px) {
   .borderContact:nth-child(3) {
     border-right: none !important;

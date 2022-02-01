@@ -1,0 +1,25 @@
+{
+  "bgImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642407609/finom_email-signature/newsletter/texture_finom_dark_yfmpfm.jpg",
+  "bgImageSmall": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642407609/finom_email-signature/newsletter/texture_finom_dark_mala_ganffn.jpg",
+  "headerTitle": "Ukázka nadpisu emailového newsletteru",
+  "articles": [
+    {
+      "title": "Testovací nadpis",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent id justo in neque elementum ultrices.",
+      "image": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642417504/finom_email-signature/newsletter/obrazky/Group_vesvbv.png"
+    },
+    {
+      "title": "Testovací nadpis",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent id justo in neque elementum ultrices.",
+      "image": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642417504/finom_email-signature/newsletter/obrazky/Group_4_wtkugp.png"
+    }
+  ],
+  "products": [
+    {
+      "image": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642758271/finom_email-signature/newsletter/obrazky/individualni_email_templates_3_pvci8t.jpg"
+    },
+    {
+      "image": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642758270/finom_email-signature/newsletter/obrazky/individualni_email_templates_4_jpqijr.jpg"
+    }
+  ]
+}
