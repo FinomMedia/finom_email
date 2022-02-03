@@ -119,5 +119,25 @@
       "website": "finomreality.cz",
       "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641816873/finom_email-signature/profile-pertl_kbat3z.png"
     }
+  ],
+  "malusek": [
+    {
+      "name": "Tomáš Malušek",
+      "position": "SALES DIRECTOR | PARTNER | ACTIVE",
+      "phone": "+420 774 847 747",
+      "email": "malusek@finomgroup.cz",
+      "website": "tomifiit.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-malusek_rfjry0.png"
+    }
+  ],
+  "indra": [
+    {
+      "name": "Patrik Indra",
+      "position": "MANAŽER | INVESTIČNÍ A ÚVĚROVÝ SPECIALISTA",
+      "phone": "+420 775 265 640",
+      "email": "indra@finom.cz",
+      "website": "finom.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-indra_nerr7o.png"
+    }
   ]
 }
