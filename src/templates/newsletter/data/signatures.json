@@ -20,12 +20,32 @@
       "website": "www.finomgroup.cz"
     }
   ],
+  "finomZlin": [
+    {
+      "title": "Finom Group a.s.",
+      "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641551789/finom_email-signature/logo/logo_finom-group_qsqysn.png",
+      "address1": "Vavrečkova 7074",
+      "address2": "760 01 Zlín",
+      "email": "info@finomgroup.cz",
+      "website": "www.finomgroup.cz"
+    }
+  ],
   "finance": [
     {
       "title": "Finom finance & invest s.r.o.",
       "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641551789/finom_email-signature/logo/logo_finom-finance_avt34z.png",
       "address1": "Stojanova 1334",
       "address2": "686 01 Uherské Hradiště",
+      "email": "info@finom.cz",
+      "website": "www.finom.cz"
+    }
+  ],
+  "financeZlin": [
+    {
+      "title": "Finom finance & invest s.r.o.",
+      "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641551789/finom_email-signature/logo/logo_finom-finance_avt34z.png",
+      "address1": "Vavrečkova 7074",
+      "address2": "760 01 Zlín",
       "email": "info@finom.cz",
       "website": "www.finom.cz"
     }
@@ -138,6 +158,46 @@
       "email": "indra@finom.cz",
       "website": "finom.cz",
       "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-indra_nerr7o.png"
+    }
+  ],
+  "polaskova": [
+    {
+      "name": "Bc. Veronika Polášková",
+      "position": "GENERAL MANAGER",
+      "phone": "+420 773 775 866",
+      "email": "info@finomgroup.cz",
+      "website": "finom.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-polaskova_hhpdge.png"
+    }
+  ],
+  "cevorova": [
+    {
+      "name": "Petra Čevorová",
+      "position": "FINANČNÍ SPECIALISTA",
+      "phone": "+420 608 318 259",
+      "email": "cevorova@finom.cz",
+      "website": "finom.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-cevorova_e9r2mw.png"
+    }
+  ],
+  "peringerova": [
+    {
+      "name": "Petra Peringerová",
+      "position": "OBLASTNÍ ŘEDITELKA",
+      "phone": "+420 776 024 550",
+      "email": "peringerova@finom.cz",
+      "website": "finom.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-peringerova_xwqtri.png"
+    }
+  ],
+  "tyml": [
+    {
+      "name": "Michal Tyml",
+      "position": "FINANČNÍ SPECIALISTA",
+      "phone": "+420 737 404 017",
+      "email": "tyml@finom.cz",
+      "website": "finom.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814099/finom_email-signature/profile-tyml_wexgd9.png"
     }
   ]
 }

@@ -6,7 +6,7 @@ bodyClass: bg-white
 
 <extends src="src/layouts/main.html">
   <block name="template">
-    <each loop="item in {{ page.signatures.finomZlin }}">
+    <each loop="item in {{ page.signatures.finance }}">
       <table class="w-600 font-sans p-16 sm:w-full">
         <tr>
           <td align="center">
@@ -48,7 +48,7 @@ bodyClass: bg-white
               </tr>
             </table>
 
-            <each loop="item in {{ page.signatures.takac }}">
+            <each loop="item in {{ page.signatures.peringerova }}">
               <table class="w-600 sm:w-full">
                 <tr>
                   <td class="text-black font-light px-0 sm:px-0">
@@ -61,23 +61,20 @@ bodyClass: bg-white
                     </p>
 
                     <p class="text-sm font-bold finom_group">
-                      <a href="tel:{{ item.phone }};" class="text-finom_group primaryLinks" style="color: #b29f80!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                      <a href="tel:{{ item.phone }};" class="text-finom_finance financeLinks" style="color: #D09124!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
                         {{ item.phone }} |
                       </a>
 
-                      <a href="mailto:{{ item.email }};" class="text-finom_group primaryLinks" style="color: #b29f80!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                      <a href="mailto:{{ item.email }};" class="text-finom_finance financeLinks" style="color: #D09124!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
                         {{ item.email }} |
                       </a>
 
-                      <a href="https://{{ item.website }}" class="text-finom_group primaryLinks" style="color: #b29f80!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                      <a href="https://{{ item.website }}" class="text-finom_finance financeLinks" style="color: #D09124!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
                         {{ item.website }} |
                       </a>
 
                       <span class="ml-2 sm:block sm:mt-8">
                         <img src="{{ page.signatures.global.icons.facebook }}" width="14" style="width: 14px!important;">
-                        <img src="{{ page.signatures.global.icons.linkedin }}" width="14" style="width: 14px!important;">
-                        <img src="{{ page.signatures.global.icons.instagram }}" width="14" style="width: 14px!important;">
-                        <img src="{{ page.signatures.global.icons.twitter }}" width="14" style="width: 14px!important;">
                       </span>
                     </p>
                   </td>
@@ -93,7 +90,7 @@ bodyClass: bg-white
 
             <table class="w-600 sm:w-full">
               <tr>
-                <each loop="item in {{ page.signatures.takac }}">
+                <each loop="item in {{ page.signatures.peringerova }}">
                   <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
                     <img src="{{ item.photo }}" width="70" style="width: 70px!important;">
                   </td>
