@@ -1,7 +1,7 @@
 {
   "global": {
     "hello": "Dobrý den,",
-    "description": "zde obsah vaší zprávy.",
+    "description": "S pozdravem,",
     "descriptionAlt": "S pozdravem,",
     "icons": {
       "facebook": "https://res.cloudinary.com/patrik-vadura/image/upload/v1636237019/finom_email-signature/icons/icon_fb_gmpsgi.png",
@@ -73,7 +73,7 @@
   "marak": [
     {
       "name": "Ondřej Mařák",
-      "position": "CEO | JEDNATEL SPOLEČNOSTI",
+      "position": "ČLEN SPRÁVNÍ RADY | OWNER | CEO",
       "phone": "+420 777 888 164",
       "email": "marak@finomgroup.cz",
       "website": "ondrejmarak.cz",
@@ -107,7 +107,7 @@
       "phone": "+420 725 007 655",
       "email": "vadura@finommedia.cz",
       "website": "patrikvadura.cz",
-      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814099/finom_email-signature/profile-vadura_ydq47t.png"
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1645529732/finom_email-signature/profile_vadura_02_uy2scb.png"
     }
   ],
   "pikova": [
