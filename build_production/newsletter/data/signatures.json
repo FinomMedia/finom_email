@@ -199,5 +199,15 @@
       "website": "finom.cz",
       "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814099/finom_email-signature/profile-tyml_wexgd9.png"
     }
+  ],
+  "hastik": [
+    {
+      "name": "Ondřej Hastík",
+      "position": "CTO | PARTNER",
+      "phone": "+420 775 776 265",
+      "email": "hastik@finommedia.cz",
+      "website": "finommedia.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641817254/finom_email-signature/profile-hastik_wkjkxz.png"
+    }
   ]
 }
