@@ -23,6 +23,12 @@
 [Emailový podpis - Tyml](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-tyml.html) <br>
 [Emailový podpis - Hastik](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-hastik.html) <br>
 
+### Základní emailový podpis - jednotlivci (Finom Sport)
+[Emailový podpis - Ďurďa](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/finom-sport/signature_finom-durda.html) <br>
+[Emailový podpis - Dostál](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/finom-sport/signature_finom-dostal.html) <br>
+[Emailový podpis - Geist](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/finom-sport/signature_finom-geist.html) <br>
+
+
 ### Newsletter - informační
 [Newsletter - Finom Group (informacni)](https://finommedia.github.io/finom_email/build_production/newsletter/newsletter_finom-group_informacni.html)
 

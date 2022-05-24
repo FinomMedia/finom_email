@@ -30,6 +30,16 @@
       "website": "www.finomgroup.cz"
     }
   ],
+  "finomsport": [
+    {
+      "title": "Finom finance & invest s.r.o.",
+      "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648035925/Finom%20Sport/logo/finom-invest_logo_simple_2x_u7gemi.png",
+      "address1": "Olomouc tř. Svobody 43/39",
+      "address2": "779 00 Olomouc",
+      "email": "info@finomsport.cz",
+      "website": "www.finomsport.cz"
+    }
+  ],
   "finance": [
     {
       "title": "Finom finance & invest s.r.o.",
@@ -208,6 +218,36 @@
       "email": "hastik@finommedia.cz",
       "website": "finommedia.cz",
       "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641817254/finom_email-signature/profile-hastik_wkjkxz.png"
+    }
+  ],
+  "durda": [
+    {
+      "name": "Mgr. Lukáš Ďurďa",
+      "position": "Team manager",
+      "phone": "+420 602 380 003",
+      "email": "durda@finom.cz",
+      "website": "finommsport.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1653288401/finom_email-signature/profile-durda_carbon.png"
+    }
+  ],
+  "dostal": [
+    {
+      "name": "Dušan dostál",
+      "position": "Finanční specialista",
+      "phone": "+420 737 103 758",
+      "email": "dostal@finom.cz",
+      "website": "finommsport.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1653288401/finom_email-signature/profile-dostal_u7icrz.png"
+    }
+  ],
+  "geist": [
+    {
+      "name": "František Geist",
+      "position": "Finanční specialista",
+      "phone": "+420 737 957 291",
+      "email": "geist@finomm.cz",
+      "website": "finommsport.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1653288401/finom_email-signature/profile-geist_q99zhb.png"
     }
   ]
 }
