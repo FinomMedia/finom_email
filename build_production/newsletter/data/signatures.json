@@ -249,5 +249,15 @@
       "website": "finommsport.cz",
       "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1653288401/finom_email-signature/profile-geist_q99zhb.png"
     }
+  ],
+  "snevajsova": [
+    {
+      "name": "Simona Šnevajsová",
+      "position": "OFFICE MANAGER | FAKTURACE",
+      "phone": "+420 773 700 025",
+      "email": "fakturace@finomgroup.cz",
+      "website": "finomgroup.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658215151/finom_email-signature/profile-snevajsova_zdvtlf.png"
+    }
   ]
 }

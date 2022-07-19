@@ -22,6 +22,7 @@
 [Emailový podpis - Peringerova](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-peringerova.html) <br>
 [Emailový podpis - Tyml](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-tyml.html) <br>
 [Emailový podpis - Hastik](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-hastik.html) <br>
+[Emailový podpis - Šnevajsová](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-snevajsova.html) <br>
 
 ### Základní emailový podpis - jednotlivci (Finom Sport)
 [Emailový podpis - Ďurďa](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/finom-sport/signature_finom-durda.html) <br>
