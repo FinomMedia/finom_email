@@ -1,0 +1,263 @@
+{
+  "global": {
+    "hello": "Dobrý den,",
+    "description": "S pozdravem,",
+    "descriptionAlt": "S pozdravem,",
+    "icons": {
+      "facebook": "https://res.cloudinary.com/patrik-vadura/image/upload/v1636237019/finom_email-signature/icons/icon_fb_gmpsgi.png",
+      "linkedin": "https://res.cloudinary.com/patrik-vadura/image/upload/v1636237019/finom_email-signature/icons/icon_li_youztx.png",
+      "instagram": "https://res.cloudinary.com/patrik-vadura/image/upload/v1636237019/finom_email-signature/icons/icon_ig_udvsgw.png",
+      "twitter": "https://res.cloudinary.com/patrik-vadura/image/upload/v1636237020/finom_email-signature/icons/icon_tw_ro7ora.png"
+    }
+  },
+  "finom": [
+    {
+      "title": "Finom Group a.s.",
+      "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641551789/finom_email-signature/logo/logo_finom-group_qsqysn.png",
+      "address1": "Stojanova 1334",
+      "address2": "686 01 Uherské Hradiště",
+      "email": "info@finomgroup.cz",
+      "website": "www.finomgroup.cz"
+    }
+  ],
+  "finomZlin": [
+    {
+      "title": "Finom Group a.s.",
+      "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641551789/finom_email-signature/logo/logo_finom-group_qsqysn.png",
+      "address1": "Vavrečkova 7074",
+      "address2": "760 01 Zlín",
+      "email": "info@finomgroup.cz",
+      "website": "www.finomgroup.cz"
+    }
+  ],
+  "finomsport": [
+    {
+      "title": "Finom finance & invest s.r.o.",
+      "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648035925/Finom%20Sport/logo/finom-invest_logo_simple_2x_u7gemi.png",
+      "address1": "Olomouc tř. Svobody 43/39",
+      "address2": "779 00 Olomouc",
+      "email": "info@finomsport.cz",
+      "website": "www.finomsport.cz"
+    }
+  ],
+  "finance": [
+    {
+      "title": "Finom finance & invest s.r.o.",
+      "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641551789/finom_email-signature/logo/logo_finom-finance_avt34z.png",
+      "address1": "Stojanova 1334",
+      "address2": "686 01 Uherské Hradiště",
+      "email": "info@finom.cz",
+      "website": "www.finom.cz"
+    }
+  ],
+  "financeZlin": [
+    {
+      "title": "Finom finance & invest s.r.o.",
+      "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641551789/finom_email-signature/logo/logo_finom-finance_avt34z.png",
+      "address1": "Vavrečkova 7074",
+      "address2": "760 01 Zlín",
+      "email": "info@finom.cz",
+      "website": "www.finom.cz"
+    }
+  ],
+  "reality": [
+    {
+      "title": "Finom Reality s.r.o.",
+      "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641551789/finom_email-signature/logo/logo_finom-reality_ktgfvi.png",
+      "address1": "Stojanova 1334",
+      "address2": "686 01 Uherské Hradiště",
+      "email": "info@finomreality.cz",
+      "website": "www.finomreality.cz"
+    }
+  ],
+  "media": [
+    {
+      "title": "Finom Media & Digital s.r.o.",
+      "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641551789/finom_email-signature/logo/logo_finom-media_yvl4wl.png",
+      "address1": "Stojanova 1334",
+      "address2": "686 01 Uherské Hradiště",
+      "email": "info@finommedia.cz",
+      "website": "www.finommedia.cz"
+    }
+  ],
+  "marak": [
+    {
+      "name": "Ondřej Mařák",
+      "position": "ČLEN SPRÁVNÍ RADY | OWNER | CEO",
+      "phone": "+420 777 888 164",
+      "email": "marak@finomgroup.cz",
+      "website": "ondrejmarak.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-marak_t9wqbw.png"
+    }
+  ],
+  "antonovic": [
+    {
+      "name": "Radim Antonovič",
+      "position": "SALES DIRECTOR | PARTNER",
+      "phone": "+420 773 494 909",
+      "email": "antonovic@finomgroup.cz",
+      "website": "finom.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-antonovic_xmgirb.png"
+    }
+  ],
+  "takac": [
+    {
+      "name": "Jakub Takáč",
+      "position": "BUSINESS DEVELOPMENT | PARTNER | DEVELOPMENT",
+      "phone": "+420 777 364 446",
+      "email": "takac@finomgroup.cz",
+      "website": "finomgroup.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1643888951/finom_email-signature/profile-takac_uwavwd.png"
+    }
+  ],
+  "vadura": [
+    {
+      "name": "Patrik Vaďura",
+      "position": "Design | Web development | 3D visualisation",
+      "phone": "+420 725 007 655",
+      "email": "vadura@finommedia.cz",
+      "website": "patrikvadura.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1645529732/finom_email-signature/profile_vadura_02_uy2scb.png"
+    }
+  ],
+  "pikova": [
+    {
+      "name": "Vendula Píková",
+      "position": "OFFICE MANAGER | FAKTURACE",
+      "phone": "+420 773 700 025",
+      "email": "fakturace@finomgroup.cz",
+      "website": "finomgroup.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-pikova_l7owu5.png"
+    }
+  ],
+  "prasek": [
+    {
+      "name": "Jiří Prášek",
+      "position": "Marketing | Sociální sítě",
+      "phone": "+420 736 233 129",
+      "email": "prasek@finommedia.cz",
+      "website": "finommedia.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642060343/finom_email-signature/profile-prasek_l5rrxs.png"
+    }
+  ],
+  "pertl": [
+    {
+      "name": "Robert Pertl",
+      "position": "REALITNÍ MAKLÉŘ",
+      "phone": "+420 776 544 494",
+      "email": "pertl@finomreality.cz",
+      "website": "finomreality.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641816873/finom_email-signature/profile-pertl_kbat3z.png"
+    }
+  ],
+  "malusek": [
+    {
+      "name": "Tomáš Malušek",
+      "position": "SALES DIRECTOR | PARTNER | ACTIVE",
+      "phone": "+420 774 847 747",
+      "email": "malusek@finomgroup.cz",
+      "website": "tomifiit.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-malusek_rfjry0.png"
+    }
+  ],
+  "indra": [
+    {
+      "name": "Patrik Indra",
+      "position": "MANAŽER | INVESTIČNÍ A ÚVĚROVÝ SPECIALISTA",
+      "phone": "+420 775 265 640",
+      "email": "indra@finom.cz",
+      "website": "finom.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-indra_nerr7o.png"
+    }
+  ],
+  "polaskova": [
+    {
+      "name": "Bc. Veronika Polášková",
+      "position": "GENERAL MANAGER",
+      "phone": "+420 773 775 866",
+      "email": "info@finomgroup.cz",
+      "website": "finom.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-polaskova_hhpdge.png"
+    }
+  ],
+  "cevorova": [
+    {
+      "name": "Petra Čevorová",
+      "position": "FINANČNÍ SPECIALISTA",
+      "phone": "+420 608 318 259",
+      "email": "cevorova@finom.cz",
+      "website": "finom.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-cevorova_e9r2mw.png"
+    }
+  ],
+  "peringerova": [
+    {
+      "name": "Petra Peringerová",
+      "position": "OBLASTNÍ ŘEDITELKA",
+      "phone": "+420 776 024 550",
+      "email": "peringerova@finom.cz",
+      "website": "finom.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814098/finom_email-signature/profile-peringerova_xwqtri.png"
+    }
+  ],
+  "tyml": [
+    {
+      "name": "Michal Tyml",
+      "position": "FINANČNÍ SPECIALISTA",
+      "phone": "+420 737 404 017",
+      "email": "tyml@finom.cz",
+      "website": "finom.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641814099/finom_email-signature/profile-tyml_wexgd9.png"
+    }
+  ],
+  "hastik": [
+    {
+      "name": "Ondřej Hastík",
+      "position": "CTO | PARTNER",
+      "phone": "+420 775 776 265",
+      "email": "hastik@finommedia.cz",
+      "website": "finommedia.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641817254/finom_email-signature/profile-hastik_wkjkxz.png"
+    }
+  ],
+  "durda": [
+    {
+      "name": "Mgr. Lukáš Ďurďa",
+      "position": "Team manager",
+      "phone": "+420 602 380 003",
+      "email": "durda@finom.cz",
+      "website": "finommsport.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1656335971/finom_email-signature/profile-durda_bvokde.png"
+    }
+  ],
+  "dostal": [
+    {
+      "name": "Dušan dostál",
+      "position": "Finanční specialista",
+      "phone": "+420 737 103 758",
+      "email": "dostal@finom.cz",
+      "website": "finommsport.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1656335970/finom_email-signature/profile-dostal_h6chpp.png"
+    }
+  ],
+  "geist": [
+    {
+      "name": "František Geist",
+      "position": "Finanční specialista",
+      "phone": "+420 737 957 291",
+      "email": "geist@finomm.cz",
+      "website": "finommsport.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1656335971/finom_email-signature/profile-geist_hs3jf7.png"
+    }
+  ],
+  "snevajsova": [
+    {
+      "name": "Simona Šnevajsová",
+      "position": "OFFICE MANAGER | FAKTURACE",
+      "phone": "+420 773 700 025",
+      "email": "fakturace@finomgroup.cz",
+      "website": "finomgroup.cz",
+      "photo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658215151/finom_email-signature/profile-snevajsova_zdvtlf.png"
+    }
+  ]
+}

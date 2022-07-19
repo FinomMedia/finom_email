@@ -3,7 +3,7 @@
   "scripts": {
     "local": "maizzle build",
     "production": "maizzle build production",
-    "watch": "maizzle serve"
+    "development": "maizzle serve"
   },
   "dependencies": {
     "@maizzle/framework": "^3.0.0"

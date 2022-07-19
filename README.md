@@ -2,6 +2,38 @@
 
 ## Production
 
+### Základní emailový podpis
+[Emailový podpis - Finom Group](https://finommedia.github.io/finom_email/build_production/signature_finom-group.html) <br>
+[Emailový podpis - Finom Finance](https://finommedia.github.io/finom_email/build_production/signature_finom-finance.html) <br>
+[Emailový podpis - Finom Reality](https://finommedia.github.io/finom_email/build_production/signature_finom-reality.html) <br>
+[Emailový podpis - Finom Media](https://finommedia.github.io/finom_email/build_production/signature_finom-media.html) <br>
+
+### Základní emailový podpis - jednotlivci
+[Emailový podpis - Píková](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-pikova.html) <br>
+[Emailový podpis - Prášek](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-prasek.html) <br>
+[Emailový podpis - Vaďura](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-vadura.html) <br>
+[Emailový podpis - Mařák](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-marak.html) <br>
+[Emailový podpis - Antonovič](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-antonovic.html) <br>
+[Emailový podpis - Takáč](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-takac.html) <br>
+[Emailový podpis - Malušek](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-malusek.html) <br>
+[Emailový podpis - Indra](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-indra.html) <br>
+[Emailový podpis - Polaskova](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-polaskova.html) <br>
+[Emailový podpis - Cevorova](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-cevorova.html) <br>
+[Emailový podpis - Peringerova](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-peringerova.html) <br>
+[Emailový podpis - Tyml](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-tyml.html) <br>
+[Emailový podpis - Hastik](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-hastik.html) <br>
+[Emailový podpis - Šnevajsová](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/signature_finom-snevajsova.html) <br>
+
+### Základní emailový podpis - jednotlivci (Finom Sport)
+[Emailový podpis - Ďurďa](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/finom-sport/signature_finom-durda.html) <br>
+[Emailový podpis - Dostál](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/finom-sport/signature_finom-dostal.html) <br>
+[Emailový podpis - Geist](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/finom-sport/signature_finom-geist.html) <br>
+
+
+### Newsletter - informační
+[Newsletter - Finom Group (informacni)](https://finommedia.github.io/finom_email/build_production/newsletter/newsletter_finom-group_informacni.html)
+
+### Newsletter - produktový
 Není k dispozici
 
 ## Getting Started
@@ -17,13 +49,14 @@ maizzle serve
 maizzle build production
 ```
 
-## Working
+## Postup přípravy produkčního výstupu
+1. Vývoj emailové šablony v *src/templates*
 
-1. build produkčních emailů 
+2. Build produkčních emailů
 ```sh
 maizzle build production
 ```
-2. výsledné HTML soubory ve složce **build_production**
+3. Výsledné HTML soubory ve složce **build_production** - zdrojový kód lze rovnou zkopírovat a dle libosti použít
 
 ## Documentation
 

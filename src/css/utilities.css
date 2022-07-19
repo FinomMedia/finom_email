@@ -1,21 +1,51 @@
-/*
- * Here is where you can define your custom utility classes.
- *
- * We wrap them in the `utilities` @layer directive, so
- * that Tailwind moves them to the correct location.
- *
- * More info:
- * https://tailwindcss.com/docs/functions-and-directives#layer
-*/
-
 .borderContact {
   margin-right: 4px;
   padding-right: 2px;
   border-right: 1px solid #b29f80;
 }
 
-.contentLink a {
-  color: #b29f80 !important;
+.primaryLinks {
+  color: #B29F80 !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: 'Lato', Helvetica, Arial, sans-serif; mso-line-height-rule: exactly !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+.mediaLinks {
+  color: #CE0F9F !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: 'Lato', Helvetica, Arial, sans-serif; mso-line-height-rule: exactly !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+.financeLinks {
+  color: #D09124 !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: 'Lato', Helvetica, Arial, sans-serif; mso-line-height-rule: exactly !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+.grayLinks {
+  color: #A2A0A0 !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: 'Lato', Helvetica, Arial, sans-serif; mso-line-height-rule: exactly !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+.articles:nth-child(even) {
+  direction: rtl !important;
+}
+
+.articles:nth-child(even) .noafect {
+  direction: ltr !important;
 }
 
 @media only screen and (max-width: 600px) {

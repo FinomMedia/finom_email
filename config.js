@@ -9,7 +9,15 @@
 |
 */
 
+const fs = require('fs');
+
+let newsletter = JSON.parse(fs.readFileSync('src/templates/newsletter/data/newsletter.json'));
+let signatures = JSON.parse(fs.readFileSync('src/templates/newsletter/data/signatures.json'));
+
 module.exports = {
+  newsletter: newsletter,
+  signatures: signatures,
+
   build: {
     templates: {
       source: 'src/templates',
@@ -19,6 +27,9 @@ module.exports = {
       assets: {
         source: 'src/images',
         destination: 'images',
+      },
+      components: {
+        root: 'src/components',
       },
     },
   },

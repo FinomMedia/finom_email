@@ -1,0 +1,162 @@
+---
+title: "Signature"
+preheader: ""
+bodyClass: bg-white
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <table class="w-600 px-16 sm:p-0 sm:w-full">
+      <tr class="text-center">
+        <td
+          background="{{ page.newsletter.bgImage }}"
+          bgcolor="#1C1C1C"
+          align="center"
+          width="330"
+          class="w-600 text-center bg-center bg-no-repeat bg-cover"
+          style="height: 330px; object-fit: cover;"
+        >
+          <!--[if gte mso 9]>
+          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 600px; height: 330px; object-fit: cover;">
+            <v:fill type="tile" src="{{ page.newsletter.bgImage }}" color="#1C1C1C" />
+            <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+          <![endif]-->
+          <div class="text-center">
+            <!----------------------------------------------------------------------------------------------------->
+            <table class="w-600 text-center sm:w-full">
+              <tr class="text-center">
+                <td align="center" class="text-center sm:w-full">
+                  <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1642407553/finom_email-signature/newsletter/logo-hlavni_ctp6ql.png" width="150" style="width: 150px!important;">
+                </td>
+              </tr>
+            </table>
+
+            <table class="w-full" role="separator">
+              <tr>
+                <td class="leading-16">&zwnj;</td>
+              </tr>
+            </table>
+
+            <table class="w-600 font-sans sm:w-full">
+              <tr>
+                <td align="center" class="text-center px-32 sm:px-16 sm:w-full">
+                  <h1 class="text-finom_group text-center text-3xl font-normal uppercase sm:text-2xl">
+                    {{ page.newsletter.headerTitle }}
+                  </h1>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if gte mso 9]>
+          </v:textbox>
+          </v:rect>
+          <![endif]-->
+        </td>
+      </tr>
+    </table>
+
+    <table class="w-600 px-16 sm:p-0 sm:w-full">
+      <tr>
+        <td>
+          <each loop="item in {{ page.newsletter.products }}">
+            <table class="w-600 sm:p-0 sm:w-full">
+              <tr class="text-center">
+                <td class="w-600">
+                  <img src="{{ item.image }}">
+                </td>
+              </tr>
+            </table>
+          </each>
+        </td>
+      </tr>
+    </table>
+
+    <table class="w-600 px-16 sm:p-0 sm:w-full">
+      <tr class="text-center">
+        <td
+          background="{{ page.newsletter.bgImageSmall }}"
+          bgcolor="#1C1C1C"
+          align="center"
+          width="178"
+          class="w-600 text-center bg-center bg-no-repeat bg-cover"
+          style="height: 178px; object-fit: cover;"
+        >
+          <!--[if gte mso 9]>
+          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 600px; height: 178px; object-fit: cover;">
+            <v:fill type="tile" src="{{ page.newsletter.bgImageSmall }}" color="#1C1C1C" />
+            <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+          <![endif]-->
+          <div class="text-center">
+            <table class="w-600 font-sans sm:w-full">
+              <tr>
+                <td align="center" class="px-32 text-center sm:w-full">
+                  <h1 class="text-finom_group text-center text-lg font-normal uppercase leading-sm sm:leading-sm ">
+                    Prohlédněte si všechny příspěvky na našem webu
+                  </h1>
+                </td>
+              </tr>
+            </table>
+
+            <table class="w-full" role="separator">
+              <tr>
+                <td class="leading-16">&zwnj;</td>
+              </tr>
+            </table>
+
+            <table class="w-600 font-sans text-center sm:w-full">
+              <tr class="text-center">
+                <td align="center" class="text-center sm:w-full">
+                  <a
+                    href="https://finomgroup.cz"
+                    class="inline-block py-16 px-24 leading-none no-underline text-black uppercase bg-finom_group" style="font-size: 15px !important;">
+                    <!--[if mso]><i style="letter-spacing: 27px; font-size: 15px; mso-font-width: -100%; mso-text-raise: 26pt;">&nbsp;</i><![endif]-->
+                    <span style="mso-text-raise: 13pt;">Přejít na web</span>
+                    <!--[if mso]><i style="letter-spacing: 27px; font-size: 15px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if gte mso 9]>
+          </v:textbox>
+          </v:rect>
+          <![endif]-->
+        </td>
+      </tr>
+    </table>
+
+    <table class="w-full" role="separator">
+      <tr>
+        <td class="leading-16">&zwnj;</td>
+      </tr>
+    </table>
+
+    <table class="w-600 px-16 sm:p-0 font-sans sm:w-full">
+      <tr>
+        <td align="center">
+          <table class="w-600 text-center sm:w-full">
+            <tr>
+              <td class="w-5/6 pl-0 text-center text-xs sm:w-3/4">
+                <p class="mb-4 text-black font-medium uppercase">
+                  Finom Group a.s.
+                </p>
+
+                <p class="m-0 text-gray-300">
+                  Stojanova 1334  |  686 01 Uherské Hradiště | <a href="mailto:info@finomgroup.cz" class="grayLinks" style="color: #A2A0A0!important; text-decoration: none!important;">info@finomgroup.cz</a>
+                </p>
+
+                <p class="font-medium text-finom_group text-base uppercase">
+                  <a href="https://finomgroup.cz"
+                     class="primaryLinks"
+                     style="color: #B29F80!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                    WWW.FINOMGROUP.CZ
+                  </a>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </block>
+</extends>

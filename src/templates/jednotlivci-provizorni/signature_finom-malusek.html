@@ -1,0 +1,117 @@
+---
+title: "Signature"
+preheader: ""
+bodyClass: bg-white
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <each loop="item in {{ page.signatures.finom }}">
+      <table class="w-600 font-sans sm:w-full">
+        <tr>
+          <td align="center">
+            <table class="w-600 sm:w-full mb-24">
+              <tr>
+                <td class="text-black contentLink font-normal pb-24 px-0 sm:px-0" style="border-bottom: 1px solid #E8E7E4!important;">
+                  <div class="m-0 text-base leading-relaxed contentLink">
+                    {{ page.signatures.global.description }}
+                  </div>
+                </td>
+              </tr>
+            </table>
+
+            <table class="w-full" role="separator">
+              <tr>
+                <td class="leading-16">&zwnj;</td>
+              </tr>
+            </table>
+
+            <table class="w-600 sm:w-full">
+              <tr>
+                <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
+                  <img src="{{ item.logo }}" width="80" style="width: 80px!important;">
+                </td>
+              </tr>
+            </table>
+
+            <table class="w-600 sm:w-full" role="separator">
+              <tr>
+                <td class="leading-8">&zwnj;</td>
+              </tr>
+            </table>
+
+            <each loop="item in {{ page.signatures.malusek }}">
+              <table class="w-600 sm:w-full">
+                <tr>
+                  <td class="text-black font-light px-0 sm:px-0">
+                    <p class="m-0 mb-4 font-bold uppercase" style="line-height: 2.5rem!important;">
+                      {{ item.name }}
+                    </p>
+
+                    <p class="m-0 font-light text-xs uppercase" style="letter-spacing: 1px!important;">
+                      {{ item.position }}
+                    </p>
+
+                    <p class="text-sm font-bold finom_group">
+                      <a href="tel:{{ item.phone }};" class="text-finom_group primaryLinks" style="color: #b29f80!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                        {{ item.phone }} |
+                      </a>
+
+                      <a href="mailto:{{ item.email }};" class="text-finom_group primaryLinks" style="color: #b29f80!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                        {{ item.email }} |
+                      </a>
+
+                      <a href="https://{{ item.website }}" class="text-finom_group primaryLinks" style="color: #b29f80!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                        {{ item.website }} |
+                      </a>
+
+                      <span class="ml-2 sm:block sm:mt-8">
+                        <img src="{{ page.signatures.global.icons.facebook }}" width="14" style="width: 14px!important;">
+                        <img src="{{ page.signatures.global.icons.linkedin }}" width="14" style="width: 14px!important;">
+                        <img src="{{ page.signatures.global.icons.instagram }}" width="14" style="width: 14px!important;">
+                      </span>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </each>
+
+            <table class="w-600 sm:w-full" role="separator">
+              <tr>
+                <td class="leading-8">&zwnj;</td>
+              </tr>
+            </table>
+
+            <table class="w-600 sm:w-full">
+              <tr>
+                <each loop="item in {{ page.signatures.malusek }}">
+                  <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
+                    <img src="{{ item.photo }}" width="70" style="width: 70px!important;">
+                  </td>
+                </each>
+
+                <td class="w-5/6 pl-0 text-gray-300 text-xs sm:w-3/4">
+                  <p class="mb-4 font-bold uppercase">
+                    {{ item.title }}
+                  </p>
+
+                  <p class="m-0">
+                    {{ item.address1 }}  |  {{ item.address2 }} | <a href="mailto:{{ item.email }};" class="grayLinks" style="color: #A2A0A0!important; text-decoration: none!important;">{{ item.email }}</a>
+                  </p>
+
+                  <p class="font-medium text-sm uppercase">
+                    <a href="https://{{ item.website }}"
+                       class="grayLinks"
+                       style="color: #A2A0A0!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                      {{ item.website }}
+                    </a>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </each>
+  </block>
+</extends>
