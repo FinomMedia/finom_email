@@ -1,0 +1,229 @@
+---
+title: "Signature"
+preheader: ""
+bodyClass: bg-white
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <table class="w-600 sm:w-full">
+      <tr>
+        <td align="center">
+          <table class="w-full" role="separator">
+            <tr>
+              <td align="center" class="text-center">
+                <img src="{{ page.newsletter.variants.finance.default.header.line }}" height="88" style="height: 88px;">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <table class="w-full" role="separator">
+      <tr>
+        <td class="leading-16">&zwnj;</td>
+      </tr>
+    </table>
+
+    <table class="w-600 text-center sm:w-full">
+      <tr class="text-center">
+        <td align="center" class="text-center sm:w-full">
+          <img src="{{ page.newsletter.variants.finance.extended.header.logo }}" width="150" style="width: 150px!important;">
+        </td>
+      </tr>
+    </table>
+
+    <table class="w-full" role="separator">
+      <tr>
+        <td class="leading-16">&zwnj;</td>
+      </tr>
+    </table>
+
+    <table class="w-600 px-16 sm:p-0 sm:w-full">
+      <tr class="text-center">
+        <td
+          background="{{ page.newsletter.variants.finance.default.header.bgImage }}"
+          bgcolor="#1C1C1C"
+          align="center"
+          height="200"
+          class="w-600 text-center bg-center bg-no-repeat bg-cover"
+          style="height: 200px; object-fit: cover;"
+        >
+          <!--[if gte mso 9]>
+          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 600px; height: 200px; object-fit: cover;">
+            <v:fill type="tile" src="{{ page.newsletter.variants.finance.default.header.bgImage }}" color="#1C1C1C" />
+            <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+          <![endif]-->
+          <div class="text-left">
+            <!----------------------------------------------------------------------------------------------------->
+            <table class="w-full" role="separator">
+              <tr>
+                <td class="leading-16">&zwnj;</td>
+              </tr>
+            </table>
+
+            <table class="w-600 font-sans sm:w-full">
+              <tr>
+                <td class="text-left px-32 sm:px-16 sm:w-full">
+                  <h1
+                    class="text-finom_finance text-left text-2xl font-normal uppercase sm:text-2xl"
+                    style="max-width: 75% !important;">
+                    {{ page.newsletter.dummyData.title }}
+                  </h1>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if gte mso 9]>
+          </v:textbox>
+          </v:rect>
+          <![endif]-->
+        </td>
+      </tr>
+    </table>
+
+    <table class="w-full" role="separator">
+      <tr>
+        <td class="leading-16">&zwnj;</td>
+      </tr>
+    </table>
+
+    <table class="w-600 font-sans sm:w-full">
+      <tr>
+        <td class="px-32">
+          <p class="text-base leading-16 font-light">
+            {{ page.newsletter.dummyData.description }}
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <table class="w-full" role="separator">
+      <tr>
+        <td class="leading-16">&zwnj;</td>
+      </tr>
+    </table>
+
+    <table class="w-600 font-sans py-16 px-32 sm:w-full">
+      <tr>
+        <td align="center">
+          <table class="w-600 sm:w-full" style="border-top: 1px solid #E8E7E4!important;">
+            <tr>
+              <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
+                <table class="w-full" role="separator">
+                  <tr>
+                    <td class="leading-16">&zwnj;</td>
+                  </tr>
+                </table>
+
+                <each loop="item in {{ page.signatures.finance }}">
+                  <img src="{{ item.logo }}" width="80" style="width: 80px!important;">
+                </each>
+              </td>
+            </tr>
+          </table>
+
+          <table class="w-600 sm:w-full" role="separator">
+            <tr>
+              <td class="leading-8">&zwnj;</td>
+            </tr>
+          </table>
+
+          <each loop="item in {{ page.signatures.indra }}">
+            <table class="w-600 sm:w-full">
+              <tr>
+                <td class="text-black font-light px-0 sm:px-0">
+                  <p class="m-0 mb-4 font-bold uppercase" style="line-height: 2.5rem!important;">
+                    {{ item.name }}
+                  </p>
+
+                  <p class="m-0 font-light text-xs uppercase" style="letter-spacing: 1px!important;">
+                    {{ item.position }}
+                  </p>
+
+                  <p class="text-sm font-bold finom_group">
+                    <a href="tel:{{ item.phone }};" class="text-finom_finance financeLinks" style="color: #D09124!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                      {{ item.phone }} |
+                    </a>
+
+                    <a href="mailto:{{ item.email }};" class="text-finom_finance financeLinks" style="color: #D09124!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                      {{ item.email }} |
+                    </a>
+
+                    <a href="https://{{ item.website }}" class="text-finom_finance financeLinks" style="color: #D09124!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                      {{ item.website }} |
+                    </a>
+
+                    <span class="ml-2 sm:block sm:mt-8">
+                        <img src="{{ page.signatures.global.icons.facebook }}" width="14" style="width: 14px!important;">
+                        <img src="{{ page.signatures.global.icons.linkedin }}" width="14" style="width: 14px!important;">
+                        <img src="{{ page.signatures.global.icons.instagram }}" width="14" style="width: 14px!important;">
+                        <img src="{{ page.signatures.global.icons.twitter }}" width="14" style="width: 14px!important;">
+                      </span>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </each>
+
+          <table class="w-600 sm:w-full" role="separator">
+            <tr>
+              <td class="leading-8">&zwnj;</td>
+            </tr>
+          </table>
+
+          <table class="w-600 sm:w-full">
+            <tr>
+              <each loop="item in {{ page.signatures.indra }}">
+                <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
+                  <img src="{{ item.photo }}" width="70" style="width: 70px!important;">
+                </td>
+              </each>
+
+              <td class="w-5/6 pl-0 text-gray-300 text-xs sm:w-3/4">
+                <each loop="item in {{ page.signatures.finance }}">
+                  <p class="mb-4 font-bold uppercase">
+                    {{ item.title }}
+                  </p>
+
+                  <p class="m-0">
+                    {{ item.address1 }}  |  {{ item.address2 }} | <a href="mailto:{{ item.email }};" class="grayLinks" style="color: #A2A0A0!important; text-decoration: none!important;">{{ item.email }}</a>
+                  </p>
+
+                  <p class="font-medium text-sm uppercase">
+                    <a href="https://{{ item.website }}"
+                       class="grayLinks"
+                       style="color: #A2A0A0!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                      {{ item.website }}
+                    </a>
+                  </p>
+                </each>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <table class="w-full" role="separator">
+      <tr>
+        <td class="leading-16">&zwnj;</td>
+      </tr>
+    </table>
+
+    <table class="w-600 sm:w-full">
+      <tr>
+        <td align="center">
+          <table class="w-full" role="separator">
+            <tr>
+              <td class="text-center">
+                <img src="{{ page.newsletter.variants.finance.default.footer.line }}" height="44" style="height: 44px;">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </block>
+</extends>
