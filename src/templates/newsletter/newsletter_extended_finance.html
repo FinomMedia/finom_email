@@ -9,7 +9,7 @@ bodyClass: bg-white
     <table class="w-600 px-16 sm:p-0 sm:w-full">
       <tr class="text-center">
         <td
-          background="{{ page.newsletter.bgImage }}"
+          background="{{ page.newsletter.variants.finance.extended.header.bgImage }}"
           bgcolor="#1C1C1C"
           align="center"
           width="330"
@@ -18,7 +18,7 @@ bodyClass: bg-white
         >
           <!--[if gte mso 9]>
           <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 600px; height: 330px; object-fit: cover;">
-            <v:fill type="tile" src="{{ page.newsletter.bgImage }}" color="#1C1C1C" />
+            <v:fill type="tile" src="{{ page.newsletter.variants.finance.extended.header.bgImage }}" color="#1C1C1C" />
             <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
           <![endif]-->
           <div class="text-center">
@@ -26,7 +26,7 @@ bodyClass: bg-white
             <table class="w-600 text-center sm:w-full">
               <tr class="text-center">
                 <td align="center" class="text-center sm:w-full">
-                  <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1642407553/finom_email-signature/newsletter/logo-hlavni_ctp6ql.png" width="150" style="width: 150px!important;">
+                  <img src="{{ page.newsletter.variants.finance.extended.header.logo }}" width="150" style="width: 150px!important;">
                 </td>
               </tr>
             </table>
@@ -40,8 +40,8 @@ bodyClass: bg-white
             <table class="w-600 font-sans sm:w-full">
               <tr>
                 <td align="center" class="text-center px-32 sm:px-16 sm:w-full">
-                  <h1 class="text-finom_group text-center text-3xl font-normal uppercase sm:text-2xl">
-                    {{ page.newsletter.headerTitle }}
+                  <h1 class="text-finom_finance text-center text-3xl font-normal uppercase sm:text-2xl">
+                    {{ page.newsletter.dummyData.title }}
                   </h1>
                 </td>
               </tr>
@@ -63,26 +63,10 @@ bodyClass: bg-white
 
     <table class="w-600 font-sans sm:w-full">
       <tr>
-        <td align="center">
-          <each loop="item in {{ page.newsletter.articles }}">
-            <table class="articles w-600 px-32 sm:p-8 sm:w-full">
-              <tr>
-                <td class="w-5/12 text-center text-black contentLink font-light sm:w-6/12">
-                  <img src="{{ item.image }}">
-                </td>
-
-                <td class="w-7/12 text-xl noafect px-16 sm:w-6/12">
-                  <p class="font-medium">
-                    {{ item.title }}
-                  </p>
-
-                  <p class="text-base font-light noafect">
-                    {{ item.description }}
-                  </p>
-                </td>
-              </tr>
-            </table>
-          </each>
+        <td class="px-32">
+          <p class="text-base leading-16 font-light">
+            {{ page.newsletter.dummyData.description }}
+          </p>
         </td>
       </tr>
     </table>
@@ -96,7 +80,7 @@ bodyClass: bg-white
     <table class="w-600 px-16 sm:p-0 sm:w-full">
       <tr class="text-center">
         <td
-          background="{{ page.newsletter.bgImageSmall }}"
+          background="{{ page.newsletter.variants.finance.extended.cta.bgImage }}"
           bgcolor="#1C1C1C"
           align="center"
           width="178"
@@ -105,15 +89,21 @@ bodyClass: bg-white
         >
           <!--[if gte mso 9]>
           <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 600px; height: 178px; object-fit: cover;">
-            <v:fill type="tile" src="{{ page.newsletter.bgImageSmall }}" color="#1C1C1C" />
-            <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+            <v:fill
+              type="tile"
+              src="{{ page.newsletter.variants.finance.extended.cta.bgImage }}"
+              color="#1C1C1C"
+            />
+            <v:textbox
+              style="mso-fit-shape-to-text:true"
+              inset="0,0,0,0">
           <![endif]-->
           <div class="text-center">
             <table class="w-600 font-sans sm:w-full">
               <tr>
                 <td align="center" class="px-32 text-center sm:w-full">
-                  <h1 class="text-finom_group text-center text-lg font-normal uppercase leading-sm sm:leading-sm ">
-                    Prohlédněte si všechny příspěvky na našem webu
+                  <h1 class="text-finom_finance text-center text-lg font-bold leading-sm sm:leading-sm ">
+                    V případě potřeby kontaktujte poradce:
                   </h1>
                 </td>
               </tr>
@@ -121,20 +111,16 @@ bodyClass: bg-white
 
             <table class="w-full" role="separator">
               <tr>
-                <td class="leading-16">&zwnj;</td>
+                <td class="leading-8">&zwnj;</td>
               </tr>
             </table>
 
-            <table class="w-600 font-sans text-center sm:w-full">
-              <tr class="text-center">
-                <td align="center" class="text-center sm:w-full">
-                  <a
-                    href="https://finomgroup.cz"
-                    class="inline-block py-16 px-24 leading-none no-underline text-black uppercase bg-finom_group" style="font-size: 15px !important;">
-                    <!--[if mso]><i style="letter-spacing: 27px; font-size: 15px; mso-font-width: -100%; mso-text-raise: 26pt;">&nbsp;</i><![endif]-->
-                    <span style="mso-text-raise: 13pt;">Přejít na web</span>
-                    <!--[if mso]><i style="letter-spacing: 27px; font-size: 15px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
-                  </a>
+            <table class="w-600 font-sans sm:w-full">
+              <tr>
+                <td align="center" class="px-32 text-center sm:w-full">
+                  <h1 class="text-white text-center text-base font-normal leading-sm sm:leading-sm ">
+                    +420 775 265 640 | indra@finom.cz | finom.cz
+                  </h1>
                 </td>
               </tr>
             </table>
@@ -159,21 +145,37 @@ bodyClass: bg-white
           <table class="w-600 text-center sm:w-full">
             <tr>
               <td class="w-5/6 pl-0 text-center text-xs sm:w-3/4">
-                <p class="mb-4 text-black font-medium uppercase">
-                  Finom Group a.s.
-                </p>
+                <each loop="item in {{ page.signatures.finance }}">
+                  <p class="mb-4 text-black font-medium uppercase">
+                    {{ item.title }}
+                  </p>
 
-                <p class="m-0 text-gray-300">
-                  Stojanova 1334  |  686 01 Uherské Hradiště | <a href="mailto:info@finomgroup.cz" class="grayLinks" style="color: #A2A0A0!important; text-decoration: none!important;">info@finomgroup.cz</a>
-                </p>
+                  <p class="m-0 text-gray-300">
+                    {{ item.address1 }}  | {{ item.address2 }} | <a href="mailto:{{ item.email }}" class="grayLinks" style="color: #A2A0A0!important; text-decoration: none!important;">{{ item.email }}</a>
+                  </p>
 
-                <p class="font-medium text-finom_group text-base uppercase">
-                  <a href="https://finomgroup.cz"
-                     class="primaryLinks"
-                     style="color: #B29F80!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
-                    WWW.FINOMGROUP.CZ
-                  </a>
-                </p>
+                  <p class="font-medium text-finom_finance text-base uppercase">
+                    <a href="{{ item.website }}"
+                       class="primaryLinks"
+                       style="color: #D09124!important; text-decoration: none!important; font-family: 'Lato', Helvetica, Arial, sans-serif !important;">
+                      {{ item.website }}
+                    </a>
+                  </p>
+                </each>
+              </td>
+            </tr>
+          </table>
+
+          <table class="w-full" role="separator">
+            <tr>
+              <td class="leading-16">&zwnj;</td>
+            </tr>
+          </table>
+
+          <table class="w-full" role="separator">
+            <tr>
+              <td class="text-center">
+                <img src="{{ page.newsletter.variants.finance.extended.footer.line }}" height="44" style="height: 44px;">
               </td>
             </tr>
           </table>
