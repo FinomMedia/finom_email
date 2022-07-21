@@ -30,8 +30,15 @@
 [Emailový podpis - Geist](https://finommedia.github.io/finom_email/build_production/jednotlivci-provizorni/finom-sport/signature_finom-geist.html) <br>
 
 
-### Newsletter - informační
-[Newsletter - Finom Group (informacni)](https://finommedia.github.io/finom_email/build_production/newsletter/newsletter_finom-group_informacni.html)
+### Newsletter - běžný
+[Newsletter - Finom Finance](https://finommedia.github.io/finom_email/build_production/newsletter/newsletter_default_finance.html)<br>
+[Newsletter - Finom Energy](https://finommedia.github.io/finom_email/build_production/newsletter/newsletter_default_energy.html)<br>
+[Newsletter - Finom Finance (Alternativní)](https://finommedia.github.io/finom_email/build_production/newsletter/newsletter_default_alt_finance.html)<br>
+[Newsletter - Finom Energy (Alternativní)](https://finommedia.github.io/finom_email/build_production/newsletter/newsletter_default_alt_energy.html)
+
+### Newsletter - rozšířený
+[Newsletter - Finom Finance](https://finommedia.github.io/finom_email/build_production/newsletter/newsletter_extended_finance.html)<br>
+[Newsletter - Finom Energy](https://finommedia.github.io/finom_email/build_production/newsletter/newsletter_extended_energy.html)
 
 ### Newsletter - produktový
 Není k dispozici
