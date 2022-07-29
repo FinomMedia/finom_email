@@ -1,25 +1,76 @@
 {
-  "bgImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642407609/finom_email-signature/newsletter/texture_finom_dark_yfmpfm.jpg",
-  "bgImageSmall": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642407609/finom_email-signature/newsletter/texture_finom_dark_mala_ganffn.jpg",
-  "headerTitle": "Ukázka nadpisu emailového newsletteru",
-  "articles": [
-    {
-      "title": "Testovací nadpis",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent id justo in neque elementum ultrices.",
-      "image": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642417504/finom_email-signature/newsletter/obrazky/Group_vesvbv.png"
+  "variants": {
+    "finance": {
+      "default": {
+        "header": {
+          "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658403458/finom_email-signature/newsletter/bezny%2C%20rozsireny/logo_finance_2x_gkxu5t.png",
+          "bgImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658403457/finom_email-signature/newsletter/bezny%2C%20rozsireny/bg_finom_finance_01_2x_ndzbdr.jpg",
+          "bgImageAlt": "https://res.cloudinary.com/patrik-vadura/image/upload/v1659075750/finom_email-signature/newsletter/bezny%2C%20rozsireny/bg_finom_finance_02_2x_jjptr2.jpg",
+          "line": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658404970/finom_email-signature/newsletter/bezny%2C%20rozsireny/prou%C5%BEek_finance_top_2x_t7ffup.png"
+        },
+        "footer": {
+          "line": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658404970/finom_email-signature/newsletter/bezny%2C%20rozsireny/FG_prou%C5%BEek_Copy_2x_gtf0js.png"
+        }
+      },
+      "extended": {
+        "header": {
+          "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658403458/finom_email-signature/newsletter/bezny%2C%20rozsireny/logo_finance_2x_gkxu5t.png",
+          "bgImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658403461/finom_email-signature/newsletter/bezny%2C%20rozsireny/bg_finom_finance_03_2x_bqwi8r.jpg"
+        },
+        "cta": {
+          "bgImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658403457/finom_email-signature/newsletter/bezny%2C%20rozsireny/bg_finom_finance_04_2x_yrhnvz.jpg"
+        },
+        "footer": {
+          "line": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658404970/finom_email-signature/newsletter/bezny%2C%20rozsireny/FG_prou%C5%BEek_Copy_2x_gtf0js.png"
+        }
+      }
     },
-    {
-      "title": "Testovací nadpis",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent id justo in neque elementum ultrices.",
-      "image": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642417504/finom_email-signature/newsletter/obrazky/Group_4_wtkugp.png"
+    "energy": {
+      "default": {
+        "header": {
+          "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658403458/finom_email-signature/newsletter/bezny%2C%20rozsireny/logo_energy_2x_d98wqw.png",
+          "bgImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658403456/finom_email-signature/newsletter/bezny%2C%20rozsireny/bg_finom_energy_01_2x_afpdc1.jpg",
+          "bgImageAlt": "https://res.cloudinary.com/patrik-vadura/image/upload/v1659075750/finom_email-signature/newsletter/bezny%2C%20rozsireny/bg_finom_energy_02_2x_fepdjw.jpg",
+          "line": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658404970/finom_email-signature/newsletter/bezny%2C%20rozsireny/prou%C5%BEek_energy_top_2x_zfyrgj.png"
+        },
+        "footer": {
+          "line": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658404970/finom_email-signature/newsletter/bezny%2C%20rozsireny/prou%C5%BEek_energy_bottom_2x_ycbt8t.png"
+        }
+      },
+      "extended": {
+        "header": {
+          "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658403458/finom_email-signature/newsletter/bezny%2C%20rozsireny/logo_energy_negative_2x_dyyxe3.png",
+          "bgImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658403456/finom_email-signature/newsletter/bezny%2C%20rozsireny/bg_finom_energy_03_2x_foajae.jpg"
+        },
+        "cta": {
+          "bgImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658403455/finom_email-signature/newsletter/bezny%2C%20rozsireny/bg_finom_energy_04_2x_n32x39.jpg"
+        },
+        "footer": {
+          "line": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658404970/finom_email-signature/newsletter/bezny%2C%20rozsireny/prou%C5%BEek_energy_bottom_2x_ycbt8t.png"
+        }
+      }
     }
-  ],
-  "products": [
-    {
-      "image": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642758271/finom_email-signature/newsletter/obrazky/individualni_email_templates_3_pvci8t.jpg"
+  },
+  "brands": {
+    "finance": {
+      "colors": {
+        "title": "finom_finance",
+        "bodyText": "",
+        "footerText": "",
+        "footerTextHighlight": "finom_finance"
+      }
     },
-    {
-      "image": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642758270/finom_email-signature/newsletter/obrazky/individualni_email_templates_4_jpqijr.jpg"
+    "energy": {
+      "colors": {
+        "title": "finom_energy_alt",
+        "bodyText": "",
+        "footerText": "",
+        "footerTextHighlight": "finom_energy"
+      }
     }
-  ]
+  },
+  "dummyData": {
+    "title": "Ukázka nadpisu emailového newsletteru",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent id justo in neque elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent id justo in neque elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent id justo in neque elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.\nPraesent id justo in neque elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent id justo in neque elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos."
+  }
 }

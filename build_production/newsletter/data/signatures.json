@@ -80,6 +80,16 @@
       "website": "www.finommedia.cz"
     }
   ],
+  "energy": [
+    {
+      "title": "Finom Energy s.r.o.",
+      "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1658405488/finom_email-signature/newsletter/bezny%2C%20rozsireny/logo_energie_signature_sde2dy.png",
+      "address1": "Stojanova 1334",
+      "address2": "686 01 Uherské Hradiště",
+      "email": "info@finomenergy.cz",
+      "website": "www.finomenergy.cz"
+    }
+  ],
   "marak": [
     {
       "name": "Ondřej Mařák",
